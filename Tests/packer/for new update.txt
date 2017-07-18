@@ -1,0 +1,10 @@
+# check if .pl or .plx
+# update error logging files
+	* maybe a complete log and current file
+# check if needs install of perl packer
+	* if yes, download then run again to install
+		- http://search.cpan.org/dist/PAR-Packer/lib/PAR/Packer.pm
+	* if no, proceed to program
+# allow destination to be current or same as source
+# check to see if destination file exists
+	* if yes, ask if you want to overwrite it

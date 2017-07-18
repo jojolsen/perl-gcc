@@ -1,0 +1,16 @@
+a\sliding door
+p\flower pot
+b\ac unit
+c\apple tree
+c\egg tree
+d\egg in d zone
+d\another egg goes here
+e\egg in e
+h\playhouse 1
+h\playhouse 2
+h\playhouse 3
+e\egg2 in e
+f\i forget where f is
+g\nope still dont know
+h\another spot
+h\last one

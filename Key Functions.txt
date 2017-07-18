@@ -1,0 +1,53 @@
+sub nl
+{
+	print "\n";
+}
+sub cls
+{
+	system("cls");
+}
+sub textIn
+{
+	chomp(my $text = <>);
+	return $text;
+}
+sub pause
+{
+	my %P = @_;
+	unless($P{phrase})
+	{
+		$P{phrase}="Press any key to continue...";
+	}
+	print "$P{phrase}\n";
+	ReadMode('cbreak');
+	my $key = ReadKey(0);
+	ReadMode('normal');
+}
+
+##
+my @array= qw(0 10 00 20 44 8);
+my @arr2;
+my @arr1 = @array;
+my $size = @array;
+##
+sub orderArray
+{
+	my $highest=$wheel[0];
+	my $indx;
+
+	for(my $j = 38; $j > 0; $j--)
+	{
+		for(my $i = 0; $i < $totalNumbers; $i++)
+		{
+			if ($wheel[$i] >= $highest)
+			{
+				$highest = $wheel[$i];
+				$indx = $i;
+			}
+		}
+		push(@arr2, $highest);
+		splice(@wheel, $indx, 1);
+		$totalNumbers = @wheel;
+		$highest = $wheel[0];
+	}
+}

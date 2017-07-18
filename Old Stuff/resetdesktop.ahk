@@ -1,0 +1,1 @@
+DllCall("SystemParametersInfo", UInt, 0x14, UInt, 0, Str, "C:\Users\dunhamjp1\Pictures\doctor who stuffs\" . "angel_2.jpg", UInt, 1)

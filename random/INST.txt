@@ -1,0 +1,4 @@
+This game is a basic quiz. When you are asked a question, you will be given
+a number of answers to choose from, lettered A, B, C or D. Make your
+choice, and press ENTER. Be sure to type the letter for the answer in
+CAPITAL LETTERS!
